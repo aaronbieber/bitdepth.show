@@ -9,7 +9,7 @@ photographers, and technologists with decades of work experience in software and
 hardware.
 
 Together, we explore how technology influences art, and vice-versa. Topics will
-range from the impact of Instagram on fine art photography to how the NFT crazy
+range from the impact of Instagram on fine art photography to how the NFT craze
 fueled interest in "generative" art and what that means for creators
 everywhere.
 
