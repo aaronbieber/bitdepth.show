@@ -1,12 +1,9 @@
 ---
-title: "What Equipment Do You Need to Create Great Art?"
+title: "What equipment do you need to create great art?"
 date: 2022-10-09T15:17:15-04:00
 ---
-
-<iframe src="https://anchor.fm/bit-depth/embed/episodes/BD002-What-equipment-do-you-need-to-create-great-art-e1p7gda"
-        style="width: 100%;" 
-        height="102px" frameborder="0" 
-        scrolling="no"></iframe>
+        
+{{< anchor "https://anchor.fm/bit-depth/embed/episodes/BD002-What-equipment-do-you-need-to-create-great-art-e1p7gda" >}}
 
 ... or how to stop worrying and just buy a Hasselblad X2D.
 
