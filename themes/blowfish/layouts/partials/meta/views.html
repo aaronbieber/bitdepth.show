@@ -1,4 +1,10 @@
-<span id="views_{{ .Path }}" title="views">
+{{ $path := "" }}
+{{ with .File }}
+  {{ $path = .Path }}
+{{ else }}
+  {{ $path = .Path }}
+{{ end }}
+<span id="views_{{ $path }}" title="views">
     {{- i18n "article.views" 0 | markdownify | emojify -}}
 </span>
 {{- /* Trim EOF */ -}}

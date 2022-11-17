@@ -24,7 +24,13 @@
       </div>
       <script>
         if (typeof auth !== 'undefined') {
-          var oid = "views_{{ .Path }}"
+          {{ $path := "" }}
+          {{ with .File }}
+            {{ $path = .Path }}
+          {{ else }}
+            {{ $path = .Path }}
+          {{ end }}
+          var oid = "views_{{ $path }}"
           var id = oid ? oid.replaceAll("/", "-") : oid
 
           var viewed = localStorage.getItem(id);
