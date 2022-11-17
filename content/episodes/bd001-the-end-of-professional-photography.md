@@ -1,5 +1,5 @@
 ---
-title: "The end of professional photography??"
+title: "BD001: The end of professional photography??"
 date: 2022-10-02T09:46:38-04:00
 ---
         

@@ -1,5 +1,5 @@
 ---
-title: "Has the internet changed how we consume art?"
+title: "BD003: Has the internet changed how we consume art?"
 date: 2022-10-16T11:39:23-04:00
 ---
         

@@ -1,5 +1,5 @@
 ---
-title: How "The Algorithm" has changed art... And how it hasn't
+title: "BD004: How \"The Algorithm\" has changed art... And how it hasn't"
 date: 2022-10-23T11:44:25-04:00
 ---
 

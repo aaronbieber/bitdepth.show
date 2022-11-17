@@ -1,5 +1,5 @@
 ---
-title: "Should you own your tools?"
+title: "BD005: Should you own your tools?"
 date: 2022-10-30T11:48:30-04:00
 ---
 

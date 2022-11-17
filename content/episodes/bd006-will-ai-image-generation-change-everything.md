@@ -1,5 +1,5 @@
 ---
-title: "Will AI image generation change everything?"
+title: "BD006: Will AI image generation change everything?"
 date: 2022-11-06T07:19:23-05:00
 ---
 

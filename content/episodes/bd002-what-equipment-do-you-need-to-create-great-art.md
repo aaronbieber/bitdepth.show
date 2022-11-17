@@ -1,5 +1,5 @@
 ---
-title: "What equipment do you need to create great art?"
+title: "BD002: What equipment do you need to create great art?"
 date: 2022-10-09T15:17:15-04:00
 ---
         
