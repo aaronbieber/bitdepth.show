@@ -1,3 +1,8 @@
+# Hugo and Blowfish
+public/
+resources/
+exampleSite/resources/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -13,6 +18,17 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+#others
 node_modules
-.DS_Store
 .hugo_build.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+.Ulysses-Group.plist
+.Ulysses-Settings.plist

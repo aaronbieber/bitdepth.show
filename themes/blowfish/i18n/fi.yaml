@@ -1,3 +1,6 @@
+global:
+  language: "FI"
+
 article:
   anchor_label: "Ankkuri"
   date: "{{ .Date }}"
@@ -12,6 +15,10 @@ article:
   word_count:
     one: "{{ .Count }} sana"
     other: "{{ .Count }} sanaa"
+  part_of_series: "This article is part of a series."
+  part: "Part"
+  this_article: "This Article"
+  related_articles: "Related"
 
 author:
   byline_title: "Kirjoittaja"
@@ -53,3 +60,6 @@ sharing:
 
 shortcode:
   recent_articles: "Viimeaikaiset"
+
+recent:
+  show_more: "Näytä Lisää"

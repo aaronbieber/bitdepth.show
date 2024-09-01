@@ -1,10 +1,12 @@
 ---
 title: "Hosting & Deployment"
-date: 2020-08-07
+weight: 14
 draft: false
 description: "Learn how to deploy a Blowfish site."
 slug: "hosting-deployment"
-tags: ["hosting", "deployment", "docs", "github", "netlify", "render"]
+tags: ["docs", "hosting", "deployment", "github", "netlify", "render"]
+series: ["Documentation"]
+series_order: 14
 ---
 
 There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.
@@ -99,11 +101,11 @@ Then in the root of your site repository, create a `netlify.toml` file:
   TZ = "UTC"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.100.2"
+  HUGO_VERSION = "0.104.1"
   HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.100.2"
+  HUGO_VERSION = "0.104.1"
 ```
 
 This configuration assumes you are deploying Blowfish as a Hugo module. If you have installed the theme using another method, change the build command to simply `hugo --gc --minify -b $URL`.

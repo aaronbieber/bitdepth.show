@@ -1,3 +1,6 @@
+global:
+  language: "RO"
+
 article:
   anchor_label: "Link"
   date: "{{ .Date }}"
@@ -12,6 +15,10 @@ article:
   word_count:
     one: "{{ .Count }} cuvânt"
     other: "{{ .Count }} cuvinte"
+  part_of_series: "This article is part of a series."
+  part: "Part"
+  this_article: "This Article"
+  related_articles: "Related"
 
 author:
   byline_title: "Autor"
@@ -53,3 +60,6 @@ sharing:
 
 shortcode:
   recent_articles: "Cele mai noi"
+
+recent:
+  show_more: "Afișați mai multe"

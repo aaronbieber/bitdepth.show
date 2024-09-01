@@ -25,8 +25,23 @@
     "url": "https://reddit.com/submit/?url=%s&resubmit=true&title=%s"
   },
   "twitter": {
-    "icon": "twitter",
+    "icon": "x-twitter",
     "title": "sharing.twitter",
     "url": "https://twitter.com/intent/tweet/?url=%s&text=%s"
+  },
+  "whatsapp": {
+    "icon": "whatsapp",
+    "title": "sharing.whatsapp",
+    "url": "https://api.whatsapp.com/send?text=%s&resubmit=true&title=%s"
+  },
+  "telegram": {
+    "icon": "telegram",
+    "title": "sharing.telegram",
+    "url": "https://t.me/share/url?url=%s&resubmit=true&title=%s"
+  },
+  "bluesky": {
+    "icon": "bluesky",
+    "title": "sharing.bluesky",
+    "url": "https://bsky.app/intent/compose?text=%[2]s+%[1]s"
   }
 }

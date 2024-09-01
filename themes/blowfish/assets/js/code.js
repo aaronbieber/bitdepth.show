@@ -1,6 +1,6 @@
 var scriptBundle = document.getElementById("script-bundle");
-var copyText = scriptBundle ? scriptBundle.getAttribute("data-copy") : "Copy";
-var copiedText = scriptBundle ? scriptBundle.getAttribute("data-copied") : "Copied";
+var copyText = scriptBundle && scriptBundle.getAttribute("data-copy")? scriptBundle.getAttribute("data-copy") : "Copy";
+var copiedText = scriptBundle && scriptBundle.getAttribute("data-copied")? scriptBundle.getAttribute("data-copied") : "Copied";
 
 function createCopyButton(highlightDiv) {
   const button = document.createElement("button");
@@ -13,7 +13,7 @@ function createCopyButton(highlightDiv) {
 }
 
 async function copyCodeToClipboard(button, highlightDiv) {
-  const codeToCopy = highlightDiv.querySelector(":last-child > .chroma > code").innerText;
+  const codeToCopy = highlightDiv.querySelector(":last-child").innerText;
   try {
     result = await navigator.permissions.query({ name: "clipboard-write" });
     if (result.state == "granted" || result.state == "prompt") {

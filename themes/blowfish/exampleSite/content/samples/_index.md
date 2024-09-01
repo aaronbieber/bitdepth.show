@@ -1,10 +1,11 @@
 ---
-title: "Content Samples"
+title: "Samples"
 description: "See what's possible with Blowfish."
 
 cascade:
   showEdit: false
-  showSummary: true
+  showSummary: false
+  hideFeatureImage: true
 ---
 
 {{< lead >}}

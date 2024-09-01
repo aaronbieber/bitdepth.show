@@ -1,3 +1,6 @@
+global:
+  language: "HU"
+
 article:
   anchor_label: "Horgony"
   date: "{{ .Date }}"
@@ -12,6 +15,10 @@ article:
   word_count:
     one: "{{ .Count }} szó"
     other: "{{ .Count }} szó"
+  part_of_series: "This article is part of a series."
+  part: "Part"
+  this_article: "This Article"
+  related_articles: "Related"
 
 author:
   byline_title: "Szerző"
@@ -53,3 +60,6 @@ sharing:
 
 shortcode:
   recent_articles: "Friss"
+
+recent:
+  show_more: "Mutass Többet"

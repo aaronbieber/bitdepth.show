@@ -1,5 +1,8 @@
+global:
+  language: "PT-PT"
+
 article:
-  anchor_label: "Anchor"
+  anchor_label: "Etiqueta"
   date: "{{ .Date }}"
   date_updated: "Atualizado a: {{ .Date }}"
   draft: "Rascunho"
@@ -8,13 +11,17 @@ article:
     one: "{{ .Count }} minuto"
     other: "{{ .Count }} minutos"
   reading_time_title: "Tempo de leitura"
-  table_of_contents: "Tabela de conteúdos"
+  table_of_contents: "Índice"
   word_count:
     one: "{{ .Count }} palavra"
     other: "{{ .Count }} palavras"
   views:
     one: "{{ .Count }} visualização"
     other: "{{ .Count }} visualizaçōes"
+  part_of_series: "Este artigo faz parte de uma série."
+  part: "Parte"
+  this_article: "Este artigo"
+  related_articles: "Relacionados"
 
 author:
   byline_title: "Autor"
@@ -31,7 +38,7 @@ error:
 footer:
   dark_appearance: "Mudar para modo escuro"
   light_appearance: "Mudar para modo claro"
-  powered_by: "Movido por {{ .Hugo }} &amp; {{ .Theme }}"
+  powered_by: "Criado por {{ .Hugo }} &amp; {{ .Theme }}"
 
 list:
   externalurl_title: "Link para site externo"
@@ -55,4 +62,7 @@ sharing:
   twitter: "Partilhar no Twitter"
 
 shortcode:
-  recent_articles: "Recente"
+  recent_articles: "Recentes"
+
+recent:
+  show_more: "Mostrar mais"

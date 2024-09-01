@@ -14,6 +14,24 @@ summaryLength = 30
 buildDrafts = false
 buildFuture = false
 
+title = "Bit Depth"
+description = "Bit Depth, a conversation about the intersection of art and technology."
+# logo = "img/logo.png"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+dateFormat = "2 January 2006"
+
+[author]
+  name = "Aaron Bieber & Chris Blake"
+  #image = "https://bitdepth.show/img/bit_depth_logo.png"
+  headline = "A conversation about art and technology"
+  bio = ""
+  # links = [
+  #   { email = "mailto:hello@your_domain.com" },
+  #   { link = "https://link-to-some-website.com/" },
+  #   { github = "https://github.com/username" },
+  # ]
+
 # googleAnalytics = "G-XXXXXXXXX"
 
 [sitemap]

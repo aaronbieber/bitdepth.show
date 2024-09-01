@@ -1,3 +1,6 @@
+global:
+  language: "HE"
+
 article:
   anchor_label: "עוגן"
   date: "{{ .Date }}"
@@ -12,6 +15,10 @@ article:
   word_count:
     one: "{{ .Count }} מילה"
     other: "{{ .Count }} מילים"
+  part_of_series: "This article is part of a series."
+  part: "Part"
+  this_article: "This Article"
+  related_articles: "Related"
 
 author:
   byline_title: "מחבר"
@@ -53,3 +60,6 @@ sharing:
 
 shortcode:
   recent_articles: "חדשים"
+
+recent:
+  show_more: "להראות יותר"
